@@ -9,11 +9,12 @@ export default function Header() {
         </Link>
         <p className="ml-4 text-gray-600 hidden md:block">Free Online AI Image Generator</p>
       </div>
-      <div>
+      {/* 移除 Photo Editor 链接 */}
+      {/* <div>
         <Link href="/photo-editor" className="text-blue-600 hover:underline">
           Photo Editor
         </Link>
-      </div>
+      </div> */}
     </nav>
   );
 }
