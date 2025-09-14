@@ -14,10 +14,11 @@ export default function OutputArea({ images, isLoading }: OutputAreaProps) {
         <div className="grid grid-cols-2 gap-4">
           {images.map((image, index) => (
             <div key={index} className="relative group">
-              <img
-                src={image}
-                alt={`Generated image ${index + 1}`}
-                className="w-full h-auto rounded-lg shadow-md"
+              <Image
+                src={/* your image source */}
+                alt={/* your alt text */}
+                width={/* width */}
+                height={/* height */}
               />
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity flex items-center justify-center opacity-0 group-hover:opacity-100">
                 <button className="bg-white text-gray-800 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
@@ -35,3 +36,4 @@ export default function OutputArea({ images, isLoading }: OutputAreaProps) {
     </div>
   );
 }
+import Image from 'next/image'
