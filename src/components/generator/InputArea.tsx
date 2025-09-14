@@ -35,7 +35,7 @@ export default function InputArea({ onGenerate }: InputAreaProps) {
             id="prompt"
             rows={4}
             className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Describe what you want to create..."
+            placeholder="What will you create with Seedream?"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
             required

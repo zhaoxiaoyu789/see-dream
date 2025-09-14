@@ -33,7 +33,7 @@ export default function OutputArea({ images, isLoading }: OutputAreaProps) {
         </div>
       ) : (
         <div className="flex items-center justify-center h-64 text-gray-500">
-          Generated images will appear here
+          Dream it up, then add it to your design.
         </div>
       )}
     </div>
