@@ -8,7 +8,7 @@ const Features: React.FC = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="p-6 border rounded-lg shadow-md bg-white">
             <h3 className="text-2xl font-semibold mb-4">Text-to-Image Generation with Seedream</h3>
-            <p>Simply type your desired scene or concept, and Seedream's powerful AI will render it into a stunning image. From fantastical landscapes to intricate character designs, Seedream brings your words to life.</p>
+            <p>Simply type your desired scene or concept, and Seedream&apos;s powerful AI will render it into a stunning image. From fantastical landscapes to intricate character designs, Seedream brings your words to life.</p>
           </div>
           <div className="p-6 border rounded-lg shadow-md bg-white">
             <h3 className="text-2xl font-semibold mb-4">Customizable Aspect Ratios in Seedream</h3>

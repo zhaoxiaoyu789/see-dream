@@ -43,11 +43,16 @@ export default function ImageGeneratorForm() {
 
       const data = await response.json();
       // SiliconFlow API 返回的图片 URL 在 data.images 数组中 <mcreference link="https://docs.siliconflow.cn/cn/api-reference/images/images-generations" index="0"></mcreference>
-      const generatedImageUrls = data.images.map((img: any) => img.url);
+      const generatedImageUrls = data.images.map((img: { url: string }) => img.url);
       setImages(generatedImageUrls);
-    } catch (error: any) {
-      console.error('Error generating images:', error.message);
-      alert(`Error: ${error.message}`);
+    } catch (error) {
+      if (error instanceof Error) {
+        console.error('Error generating images:', error.message);
+        alert(`Error: ${error.message}`);
+      } else {
+        console.error('An unknown error occurred:', error);
+        alert('An unknown error occurred.');
+      }
     } finally {
       setIsLoading(false);
     }

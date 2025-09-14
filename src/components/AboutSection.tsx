@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
           <h3 className="text-2xl font-semibold mb-4">The Technology Behind Seedream</h3>
           <p className="mb-6">At its core, Seedream utilizes state-of-the-art diffusion models, similar to those powering leading AI art tools. These models are trained on vast datasets of images and text, enabling them to understand nuanced prompts and generate visually coherent and aesthetically pleasing results. Our infrastructure is optimized for speed and efficiency, ensuring that your creative process with Seedream is smooth and responsive. We continuously update our models to incorporate the latest advancements in AI, providing you with cutting-edge image generation capabilities.</p>
           <h3 className="text-2xl font-semibold mb-4">Why Choose Seedream for Your Creative Projects?</h3>
-          <p>Seedream stands out by offering an intuitive user experience combined with powerful AI. Whether you're looking to create concept art, marketing visuals, social media content, or simply explore the boundaries of your creativity, Seedream provides the tools you need. Our platform supports various aspect ratios and resolutions, giving you full control over the output. Experience the future of digital creation with Seedream.</p>
+          <p>Seedream stands out by offering an intuitive user experience combined with powerful AI. Whether you&apos;re looking to create concept art, marketing visuals, social media content, or simply explore the boundaries of your creativity, Seedream provides the tools you need. Our platform supports various aspect ratios and resolutions, giving you full control over the output. Experience the future of digital creation with Seedream.</p>
         </div>
       </div>
     </section>

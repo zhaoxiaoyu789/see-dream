@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ImageGeneratorForm from '../components/ImageGeneratorForm'; // 假设这是您之前创建的表单组件
